@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UD_Duty")]
+[assembly: AssemblyTitle("UD_DeathBag")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UD_Duty")]
+[assembly: AssemblyProduct("UD_DeathBag")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f862a08e-9837-49e1-8db3-a92c794298cd")]
+[assembly: Guid("fedb8dea-5fbd-4df4-87b7-da9ec2b96b0f")]
 
 // Version information for an assembly consists of the following four values:
 //
