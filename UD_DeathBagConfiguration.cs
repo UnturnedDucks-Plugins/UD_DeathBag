@@ -7,12 +7,14 @@ namespace UD_DeathBag
         public bool Enabled;
         public ushort DeathBagId;
         public uint Delay;
+        public bool StoreInventory;
 
         public void LoadDefaults()
         {
             Enabled = true;
             DeathBagId = 26007;
             Delay = 300;
+            StoreInventory = true;
         }
     }
 }
