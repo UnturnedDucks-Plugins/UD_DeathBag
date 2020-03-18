@@ -21,7 +21,8 @@ namespace UD_DeathBag
             if (Instance.Configuration.Instance.Enabled)
             {
                 UnturnedPlayerEvents.OnPlayerDeath += OnPlayerDeath;
-                Logger.LogWarning("[DeathBag] Log: Author of Plugin: Duck");
+                Logger.LogWarning("[DeathBag] Plugin Dev: Duck");
+                Logger.LogWarning("[DeathBag] If this plugin is running on a server unaffliated with BBGN, you are violating International Copyright Laws and will be punished accordingly");
                 Logger.LogWarning("[DeathBag] Log: The plugin has been loaded");
             }
         }
@@ -40,7 +41,7 @@ namespace UD_DeathBag
             UnityEngine.Vector3 deathlocation = player.Position + new UnityEngine.Vector3(0, (float)0.60, 0);
 
             moveInventoryItems(player, droppedInventory);
-            if(Instance.Configuration.Instance.StoreInventory)
+            if(Instance.Configuration.Instance.StoreClothes)
                 removeClothing(player, droppedInventory);
 
             // use the specified unturned storage asset
